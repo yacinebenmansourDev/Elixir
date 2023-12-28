@@ -1,0 +1,75 @@
+@import url('global.css');
+.cta-heading {
+  color: var(--color-background-white) !important;
+}
+.cta-img {
+  height: auto;
+  background-image: url('../img/cta.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cta-form {
+  background-color: var(--color-main);
+  padding: 12.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.8rem;
+}
+.cta-box {
+  position: relative;
+}
+.cta-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.cta-form input,
+textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: var(--font-20);
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  color: var(--color-background-white);
+  border: none;
+  border-bottom: 3px solid var(--color-background-white);
+  outline: none;
+  background: transparent;
+}
+.cta-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: var(--font-20);
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  color: var(--color-background-white);
+  pointer-events: none;
+  transition: 0.5s;
+}
+.cta-form .cta-inputs .cta-box input:focus ~ label,
+.cta-form .cta-inputs .cta-box input:valid ~ label,
+.cta-form .cta-inputs .cta-box textarea:focus ~ label,
+.cta-form .cta-inputs .cta-box textarea:valid ~ label {
+  top: -30px;
+  left: 0;
+  color: #211710;
+}
+.cta-form .cta-inputs .cta-box input:focus,
+.cta-form .cta-inputs .cta-box input:active,
+.cta-form .cta-inputs .cta-box textarea:focus,
+.cta-form .cta-inputs .cta-box textarea:active {
+  border-bottom: 3px solid #211710;
+  caret-color: #211710;
+}
+.btn-submit {
+  border: 3px solid var(--color-background-white) !important;
+  color: var(--color-background-white);
+  padding: 1.2rem 2.4rem;
+  font-size: var(--font-18);
+  font-family: var(--font-ubuntu);
+  background: transparent;
+}

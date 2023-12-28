@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Junge&family=Rosarivo:ital@0;1&family=Ubuntu+Mono&family=Ubuntu:wght@300;400;500;700&family=Vidaloka&display=swap');
+@import url(queries.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(associates.css);
+@import url(protocol.css);
+@import url(bestSellers.css);
+@import url(stuff.css);
+@import url(gallery.css);
+@import url(testimonials.css);
+@import url(cta.css);
+
+:root {
+  font-size: 62.5%;
+  --font-inter: 'Inter', sans-serif;
+  --font-junge: 'Junge', cursive, serif;
+  --font-rosarivo: 'Rosarivo', cursive, serif;
+  --font-ubuntu: 'Ubuntu', sans-serif;
+  --font-ubuntu-mono: 'Ubuntu Mono', monospace;
+  --font-vidaloka: 'Vidaloka', serif;
+
+  --color-main: #6f4e37;
+  --color-background-brown: #f1edeb;
+  --color-background-white: #fefdfb;
+  --color-text: #0a171c;
+  --color-form-active: #211710;
+
+  --font-16: 1.6rem;
+  --font-18: 1.8rem;
+  --font-20: 2rem;
+  --font-24: 2.4rem;
+  --font-30: 3rem;
+  --font-36: 3.6rem;
+  --font-44: 4.4rem;
+  --font-62: 6.2rem;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+.link:link,
+.link:visited {
+  text-decoration: none;
+}
+.grid {
+  display: grid;
+}
+.grid-2--cols {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3--cols {
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 8rem;
+}
+.btn {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+}
+.secondary-heading {
+  font-size: var(--font-30);
+  font-weight: 400;
+  font-family: var(--font-junge);
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  text-align: center;
+  color: var(--color-text);
+}
+.tertiary-heading {
+  font-size: var(--font-24);
+  font-weight: 400;
+  font-family: var(--font-vidaloka);
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  text-align: left;
+  color: var(--color-text);
+}

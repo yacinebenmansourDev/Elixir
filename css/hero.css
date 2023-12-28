@@ -1,0 +1,57 @@
+@import url(global.css);
+.hero-section {
+  padding: 12.8rem 0 12.8rem 0;
+  background-color: var(--color-background-brown);
+}
+.hero-content {
+  gap: 9.6rem;
+  align-items: center;
+}
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  max-width: 46.9rem;
+}
+.hero-title {
+  font-size: var(--font-44);
+  font-family: var(--font-vidaloka);
+  font-weight: 400;
+  line-height: 105%;
+  letter-spacing: 0;
+}
+.hero-title span {
+  font-size: var(--font-36);
+  font-family: var(--font-rosarivo);
+  font-weight: 400;
+  font-style: italic;
+}
+.hero-paragraph {
+  font-size: var(--font-20);
+  font-family: var(--font-vidaloka);
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5%;
+}
+.hero-buttons {
+  display: flex;
+  gap: 1.6rem;
+}
+.hero-main-btn {
+  font-size: var(--font-18);
+  font-weight: 400;
+  padding: 1.2rem 2.4rem;
+  border: 2px solid var(--color-main) !important;
+  color: var(--color-main);
+}
+.hero-second-btn {
+  padding: 1.2rem 2.4rem;
+  border: none;
+  background-color: none;
+  font-size: var(--font-18);
+  font-weight: 400;
+  color: var(--color-main);
+}
+.hero-img {
+  width: 100%;
+}

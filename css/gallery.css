@@ -1,0 +1,59 @@
+@import url('global.css');
+
+.gallery-section {
+  padding: 0 0 9.6rem 0;
+  background-color: var(--color-background-white);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12.8rem;
+}
+.gallery {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 0;
+  row-gap: 0;
+}
+.gallery-img {
+  overflow: hidden;
+}
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s;
+}
+.gallery-img img:hover {
+  transform: scale(1.25);
+}
+.figure1 {
+  grid-area: 1 / 1 / 3 / 3;
+}
+.figure2 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.figure3 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.figure4 {
+  grid-area: 2 / 3 / 4 / 5;
+}
+.figure5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.figure6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.figure7 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.figure8 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.figure9 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+.figure10 {
+  grid-area: 4 / 4 / 5 / 5;
+}

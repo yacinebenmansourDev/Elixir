@@ -1,0 +1,48 @@
+@import url(global.css);
+.protocol-section {
+  padding: 0 0 9.6rem 0;
+  background-color: var(--color-background-white);
+}
+.protocol-container {
+  max-width: 89.4rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+.protocol-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.protocol-paragraph {
+  font-size: var(--font-18);
+  font-family: var(--font-ubuntu);
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  color: var(--color-text);
+}
+.protocol-step-num {
+  font-size: var(--font-62);
+  font-family: var(--font-vidaloka);
+  color: var(--color-text);
+}
+.protocol-img {
+  height: 28.7rem;
+  width: 30.2rem;
+  background-position: center;
+  background-size: cover;
+}
+.protocol-1-img {
+  background-image: url('../img/protocol/protocol-01.jpg');
+}
+.protocol-2-img {
+  background-image: url('../img/protocol/protocol-02.jpg');
+}
+.protocol-3-img {
+  background-image: url('../img/protocol/protocol-03.jpg');
+}
+.protocol-step-num {
+  text-align: center;
+}

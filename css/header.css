@@ -1,0 +1,49 @@
+@import url(global.css);
+
+.header {
+  padding: 1rem 0;
+  background-color: var(--color-background-brown);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 60px;
+}
+
+.link:link,
+.link:visited {
+  padding: 1rem;
+  font-size: var(--font-16);
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  color: var(--color-text);
+}
+.link:hover,
+.link:active {
+  color: rgba(10, 23, 28, 0.6);
+}
+.list-left,
+.list-right {
+  gap: 1.2rem;
+  padding: 1rem 0;
+}
+.mobile-nav {
+  display: none;
+}
+
+.btn-nav-bar {
+  display: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+.nav-bar-icon {
+  height: 4.2rem;
+  width: 4.2rem;
+}

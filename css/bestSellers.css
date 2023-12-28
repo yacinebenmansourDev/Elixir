@@ -1,0 +1,104 @@
+@import url('global.css');
+
+.best-sellers-section {
+  padding: 0 0 9.6rem 0;
+  background-color: var(--color-background-white);
+}
+.sellers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.slider,
+.slider-container {
+  display: flex;
+  gap: 6.4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-img {
+  height: 25rem;
+  width: 26.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider-img-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/bestSell/latte.jpg');
+  position: relative;
+}
+.slider-img-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/bestSell/espresso.jpg');
+  background-position: left !important;
+  position: relative;
+}
+.slider-img-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/bestSell/tea.jpg');
+  position: relative;
+}
+.slider-img-1::before {
+  content: 'Latte';
+  position: absolute;
+  left: 13px;
+  bottom: 9px;
+  font-family: var(--font-ubuntu);
+  font-size: var(--font-30);
+  font-weight: 500;
+  color: var(--color-background-white);
+  z-index: 10;
+}
+.slider-img-2::before {
+  content: 'Espresso';
+  position: absolute;
+  left: 13px;
+  bottom: 9px;
+  font-family: var(--font-ubuntu);
+  font-size: var(--font-30);
+  font-weight: 500;
+  color: var(--color-background-white);
+  z-index: 10;
+}
+.slider-img-3::before {
+  content: 'Tea';
+  position: absolute;
+  left: 13px;
+  bottom: 9px;
+  font-family: var(--font-ubuntu);
+  font-size: var(--font-30);
+  font-weight: 500;
+  color: var(--color-background-white);
+  z-index: 10;
+}
+.slider-btn {
+  height: 6.2rem;
+  width: 6.2rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-main) !important;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: var(--color-main);
+}
+.dots {
+  align-self: center;
+  display: flex;
+  gap: 1.2rem;
+}
+.dot {
+  cursor: pointer;
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-main);
+}
+.active-dot {
+  background: var(--color-main);
+}
